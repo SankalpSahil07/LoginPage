@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+
+        <!--RelativeLayout 1-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_Tony_Stark"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/tony_stark_new"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_Tony_Stark"
+                    android:layout_toRightOf="@+id/img_Tony_Stark"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Tony Stark"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_Tony_email"
+                    android:layout_below="@+id/tv_Tony_Stark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="tony@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_Tony_Stark"/>
+                <TextView
+                    android:id="@+id/tv_Tony_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 00007777"
+                    android:layout_toRightOf="@+id/img_Tony_Stark"
+                    android:layout_below="@+id/tv_Tony_email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--RelativeLayout 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_captian_Amarica"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/captain_america"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_captian_America"
+                    android:layout_toRightOf="@+id/img_captian_Amarica"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Steve Rogers"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_steve_Rogers_email"
+                    android:layout_below="@+id/tv_captian_America"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="steve@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_captian_Amarica"/>
+                <TextView
+                    android:id="@+id/tv_captain_America_Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 333377777"
+                    android:layout_toRightOf="@+id/img_captian_Amarica"
+                    android:layout_below="@+id/tv_steve_Rogers_email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--RelativeLayout 3 -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_thor"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/thor"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_thor_odison"
+                    android:layout_toRightOf="@+id/img_thor"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="Thor Odison"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_thor_Email"
+                    android:layout_below="@+id/tv_thor_odison"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="thor@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_thor"/>
+                <TextView
+                    android:id="@+id/tv_thor_Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 222277777"
+                    android:layout_toRightOf="@+id/img_thor"
+                    android:layout_below="@+id/tv_thor_Email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--RelativeLayout 4-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_Hulk"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/hulk"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_hulk"
+                    android:layout_toRightOf="@id/img_Hulk"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Dr.Bruce Banner"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_hulk_Email"
+                    android:layout_below="@+id/tv_hulk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hulk@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_Hulk"/>
+                <TextView
+                    android:id="@+id/tv_hulk_Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 88885555"
+                    android:layout_toRightOf="@+id/img_Hulk"
+                    android:layout_below="@+id/tv_hulk_Email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--RelativeLayout 5-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_blackpanther"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/black_panther"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_blackPanther"
+                    android:layout_toRightOf="@id/img_blackpanther"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:text="T'Chala"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_panther_Email"
+                    android:layout_below="@+id/tv_blackPanther"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="blackpanther@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_blackpanther"/>
+                <TextView
+                    android:id="@+id/tv_panther_Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 11144444"
+                    android:layout_toRightOf="@+id/img_blackpanther"
+                    android:layout_below="@+id/tv_panther_Email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--Relative Layout 6-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            app:cardCornerRadius="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_widow"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/widow"
+                    android:layout_margin="20dp"/>
+
+                <TextView
+                    android:id="@+id/tv_widow"
+                    android:layout_toRightOf="@id/img_widow"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="Natasha Romanova"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tv_widow_Email"
+                    android:layout_below="@+id/tv_widow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="widow@starkindustries.com"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/img_widow"/>
+                <TextView
+                    android:id="@+id/tv_widow_Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91 11133333"
+                    android:layout_toRightOf="@+id/img_widow"
+                    android:layout_below="@+id/tv_widow_Email"
+                    android:layout_marginTop="15dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
